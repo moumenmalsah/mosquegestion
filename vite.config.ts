@@ -20,6 +20,6 @@ export default defineConfig(({ mode }) => {
         }
       },
       // AJOUTE LE SLASH À LA FIN ICI :
-      base: '/mosquegestion/', 
+      base: "/mosquegestion/", 
     };
   });
