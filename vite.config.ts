@@ -18,6 +18,8 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      }
+      },
+      // AJOUTE LE SLASH À LA FIN ICI :
+      base: '/mosquegestion/', 
     };
-});
+  });
