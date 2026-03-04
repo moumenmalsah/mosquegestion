@@ -1,0 +1,5 @@
+{
+  "name": "MosqueManager AI",
+  "description": "Système de gestion complet pour Mosquée : suivi du 'Charte' (الشرط), gestion des dépenses, trésorerie et analyses financières assistées par IA.",
+  "requestFramePermissions": []
+}
