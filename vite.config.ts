@@ -2,9 +2,11 @@ import path from 'path';
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(({ mode }) => {// AJOUTE LE SLASH À LA FIN ICI :
     const env = loadEnv(mode, '.', '');
+    
     return {
+        base: "/mosquegestion/", 
       server: {
         port: 3000,
         host: '0.0.0.0',
@@ -20,6 +22,6 @@ export default defineConfig(({ mode }) => {
         }
       },
       // AJOUTE LE SLASH À LA FIN ICI :
-      base: "/mosquegestion/", 
+     
     };
   });
