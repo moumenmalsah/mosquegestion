@@ -1,5 +1,5 @@
 {
-  "homepage": "https://masjidmed.vercel.app/",
+  "homepage": "https://moumenmalsah.github.io/mosquegestion/",
   "name": "mosquemanager-ai",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@google/genai": "^1.41.0",
