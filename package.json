@@ -1,5 +1,5 @@
 {
-  "homepage": "https://moumenmalsah.github.io/mosquegestion", 
+  "homepage": "https://moumenmalsah.github.io/mosquegestion",
   "name": "mosquemanager-ai",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build",
-    "start": "react-scripts start"
+    "predeploy": "npm run build"  
+    
   },
   "dependencies": {
     "@google/genai": "^1.41.0",
@@ -26,6 +26,7 @@
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
     "autoprefixer": "^10.4.27",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.8",
     "tailwindcss": "^4.2.1",
     "typescript": "~5.8.2",
