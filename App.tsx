@@ -8,7 +8,7 @@ import { TransactionForm } from './components/TransactionForm';
 import { TransactionList } from './components/TransactionList';
 import { StatsCard } from './components/StatsCard';
 import { Reports } from './components/Reports';
-import { SupabaseManager } from './components/SupabaseManager';
+
 import { 
   LayoutDashboard, 
   Wallet, 
@@ -57,9 +57,7 @@ const App: React.FC = () => {
   const [isDbLoading, setIsDbLoading] = useState(false);
   const [dbError, setDbError] = useState<string | null>(null);
 
-  // Cloud State (Firebase - kept for backup if needed)
-  const [firebaseConfig, setFirebaseConfig] = useState<FirebaseConfig | null>(null);
-  const [isCloudLoading, setIsCloudLoading] = useState(false);
+
 
   // Settings Form State
   const [tempConfig, setTempConfig] = useState<FirebaseConfig>({
